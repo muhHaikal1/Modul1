@@ -1,0 +1,123 @@
+/* Reset dan aturan umum */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2f2f2f;
+    color: white;
+    text-align: center;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444;
+    padding: 20px;
+}
+
+.logo-image {
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Bagian Utama */
+main {
+    padding: 50px 20px;
+}
+
+.product-section {
+    position: relative;
+    background-image: url('https://i.pinimg.com/originals/79/16/1d/79161dfc7e3a5f04dd2771063ccf8891.jpg');
+    background-size: cover;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.shoe-image {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.shoe-quote {
+    font-size: 14px;
+    margin-top: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Bagian Pilihan Sepatu */
+.shoe-options {
+    margin-top: 50px;
+}
+
+.shoe-options h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.shoe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 0 50px;
+}
+
+.shoe-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.shoe-card img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    
+}
+
+.shoe-card p {
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #444;
+}
+
+footer p {
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 30px;
+}
